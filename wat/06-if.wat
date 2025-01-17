@@ -35,5 +35,19 @@
 
             )
         )
+
+        ;; Alternative way to write if
+
+        ;; if (result i32 i32)
+        ;;
+        ;;     i32.const 0
+        ;;     i32.const 4
+        ;;
+        ;; else
+        ;;
+        ;;     i32.const 4
+        ;;     i32.const 3
+        ;;
+        ;; end
     )
 )
